@@ -1,0 +1,64 @@
+body{
+    background-color: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100vh;
+}
+.main-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.page-title {
+    color: #263a5b;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn-custom {
+    background-color: #3157a4;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #203f7d;
+    color: white;
+}
+
+.message {
+    display: none;
+    margin-top: 15px;
+}
+
+.answer-option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+}
+
+.answer-option:hover {
+    background-color: #edf2ff;
+}
+
+.answer-option.selected {
+    border: 2px solid #3157a4;
+    background-color: #edf2ff;
+}
+
+.progress {
+    height: 10px;
+}
+
+@media (max-width: 576px) {
+    .main-card {
+        padding: 20px;
+    }
+}
