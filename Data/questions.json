@@ -1,0 +1,113 @@
+
+[
+    {
+        "id": 1,
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hyper Text Markup Language",
+            "High Text Machine Language",
+            "Hyper Transfer Markup Language",
+            "Home Tool Markup Language"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 2,
+        "question": "Which HTML tag is used for the largest heading?",
+        "options": [
+            "<h6>",
+            "<heading>",
+            "<h1>",
+            "<head>"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 3,
+        "question": "Which CSS property changes text color?",
+        "options": [
+            "background",
+            "color",
+            "font-size",
+            "text-align"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "Which CSS property changes the background color?",
+        "options": [
+            "color",
+            "font-style",
+            "background-color",
+            "text-decoration"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "Which keyword declares a variable in JavaScript?",
+        "options": [
+            "var",
+            "int",
+            "string",
+            "float"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 6,
+        "question": "Which method selects an element by its ID?",
+        "options": [
+            "getElementsByClassName()",
+            "querySelectorAll()",
+            "getElementById()",
+            "getElementByName()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 7,
+        "question": "Which symbol is used for strict equality in JavaScript?",
+        "options": [
+            "=",
+            "==",
+            "===",
+            "!="
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 8,
+        "question": "Which method adds an item to the end of an array?",
+        "options": [
+            "pop()",
+            "push()",
+            "shift()",
+            "slice()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "Which HTML attribute specifies a link destination?",
+        "options": [
+            "src",
+            "alt",
+            "href",
+            "target"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 10,
+        "question": "Which method converts a JSON string into a JavaScript object?",
+        "options": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "JSON.convert()",
+            "JSON.object()"
+        ],
+        "correctAnswer": 1
+    }
+]
