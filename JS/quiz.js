@@ -106,11 +106,14 @@ async function loadQuestions() {
 }
 
 function startNewQuiz(data) {
-  questions = shuffleQuestions(data);
-  currentQuestionIndex = 0;
-  answers = new Array(questions.length).fill(null);
-  questionDeadline = Date.now() + QUESTION_TIME * 1000;
-  saveProgress();
+    if (!Array.isArray(data) || data.length < 10) {
+        throw new Error("You need at least 10 questions.");
+    }
+    const shuffledQuestions = shuffleQuestions(data);
+    questions = shuffledQuestions.slice(0, 10);
+    currentQuestionIndex = 0;
+    answers = new Array(questions.length).fill(null);
+    saveProgress();
 }
 
 function displayQuestion() {
@@ -152,14 +155,16 @@ function displayQuestion() {
 }
 
 function selectAnswer(index, selectedButton) {
-  answers[currentQuestionIndex] = index;
-  const allButtons = document.querySelectorAll(".answer-option");
-  allButtons.forEach(function (button) {
-    button.classList.remove("selected");
-  });
-  selectedButton.classList.add("selected");
-  nextBtn.disabled = false;
-  saveProgress();
+    answers[currentQuestionIndex] = index;
+    const allButtons = document.querySelectorAll(".answer-option");
+
+    allButtons.forEach(function(button) {
+        button.classList.remove("selected");
+    });
+    selectedButton.classList.add("selected");
+    nextBtn.disabled = false;
+    quizMessage.style.display = "none";
+    saveProgress();
 }
 
 function startTimer() {
@@ -200,14 +205,22 @@ function goToNextQuestion() {
     finishQuiz();
   }
 }
-nextBtn.addEventListener("click", function () {
-  if (selectedAnswer === null) {
-    quizMessage.textContent = "Please select an answer first.";
-    quizMessage.className = "alert alert-warning";
-    quizMessage.style.display = "block";
-    return;
-  }
-  goToNextQuestion();
+nextBtn.addEventListener("click", function() {
+
+    // Check if an answer was selected
+    if (answers[currentQuestionIndex] === null) {
+
+        quizMessage.textContent = "Please select an answer first.";
+
+        quizMessage.className = "alert alert-warning";
+        quizMessage.style.display = "block";
+
+        return;
+    }
+
+    // Go to next question
+    goToNextQuestion();
+
 });
 
 previousBtn.addEventListener("click", function () {

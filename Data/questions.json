@@ -1,74 +1,29 @@
-
 [
     {
         "id": 1,
-        "question": "What does HTML stand for?",
+        "question": "Which keyword declares a block-scoped variable that can be reassigned?",
         "options": [
-            "Hyper Text Markup Language",
-            "High Text Machine Language",
-            "Hyper Transfer Markup Language",
-            "Home Tool Markup Language"
+            "const",
+            "let",
+            "static",
+            "define"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 1
     },
     {
         "id": 2,
-        "question": "Which HTML tag is used for the largest heading?",
+        "question": "Which keyword declares a variable that cannot be reassigned?",
         "options": [
-            "<h6>",
-            "<heading>",
-            "<h1>",
-            "<head>"
+            "let",
+            "var",
+            "const",
+            "value"
         ],
         "correctAnswer": 2
     },
     {
         "id": 3,
-        "question": "Which CSS property changes text color?",
-        "options": [
-            "background",
-            "color",
-            "font-size",
-            "text-align"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 4,
-        "question": "Which CSS property changes the background color?",
-        "options": [
-            "color",
-            "font-style",
-            "background-color",
-            "text-decoration"
-        ],
-        "correctAnswer": 2
-    },
-    {
-        "id": 5,
-        "question": "Which keyword declares a variable in JavaScript?",
-        "options": [
-            "var",
-            "int",
-            "string",
-            "float"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 6,
-        "question": "Which method selects an element by its ID?",
-        "options": [
-            "getElementsByClassName()",
-            "querySelectorAll()",
-            "getElementById()",
-            "getElementByName()"
-        ],
-        "correctAnswer": 2
-    },
-    {
-        "id": 7,
-        "question": "Which symbol is used for strict equality in JavaScript?",
+        "question": "Which symbol is used for strict equality?",
         "options": [
             "=",
             "==",
@@ -78,35 +33,1069 @@
         "correctAnswer": 2
     },
     {
+        "id": 4,
+        "question": "Which operator assigns a value to a variable?",
+        "options": [
+            "==",
+            "=",
+            "===",
+            "=>"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 5,
+        "question": "What is the result of typeof 'Hello'?",
+        "options": [
+            "text",
+            "String",
+            "string",
+            "char"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 6,
+        "question": "What is the result of typeof 42?",
+        "options": [
+            "number",
+            "integer",
+            "Number",
+            "float"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 7,
+        "question": "Which value represents an intentional absence of a value?",
+        "options": [
+            "0",
+            "false",
+            "null",
+            "''"
+        ],
+        "correctAnswer": 2
+    },
+    {
         "id": 8,
-        "question": "Which method adds an item to the end of an array?",
+        "question": "What is the value of an uninitialized variable?",
+        "options": [
+            "null",
+            "undefined",
+            "0",
+            "false"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "Which of these is a Boolean value?",
+        "options": [
+            "'true'",
+            "1",
+            "true",
+            "yes"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 10,
+        "question": "Which operator means logical AND?",
+        "options": [
+            "||",
+            "&&",
+            "!",
+            "&="
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 11,
+        "question": "Which operator means logical OR?",
+        "options": [
+            "&&",
+            "!",
+            "||",
+            "??"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 12,
+        "question": "Which operator means logical NOT?",
+        "options": [
+            "not",
+            "!==",
+            "!",
+            "~="
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 13,
+        "question": "What does the % operator return?",
+        "options": [
+            "A percentage",
+            "The remainder",
+            "The quotient",
+            "The exponent"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 14,
+        "question": "Which operator raises a number to a power?",
+        "options": [
+            "^",
+            "**",
+            "%%",
+            "//"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 15,
+        "question": "What is the result of 5 + '2'?",
+        "options": [
+            "7",
+            "'52'",
+            "NaN",
+            "Error"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 16,
+        "question": "What is the result of 5 - '2'?",
+        "options": [
+            "'52'",
+            "3",
+            "NaN",
+            "Error"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 17,
+        "question": "Which function converts a value to a number?",
+        "options": [
+            "String()",
+            "Boolean()",
+            "Number()",
+            "Parse()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 18,
+        "question": "Which method converts a number to a string?",
+        "options": [
+            "toString()",
+            "toNumber()",
+            "stringify()",
+            "parseInt()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 19,
+        "question": "What does NaN stand for?",
+        "options": [
+            "No assigned Number",
+            "Not a Number",
+            "New and Null",
+            "Negative a Number"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 20,
+        "question": "Which method checks whether a value is NaN reliably?",
+        "options": [
+            "Number.isNaN()",
+            "isNumber()",
+            "NaN.check()",
+            "Number.NaN()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 21,
+        "question": "Which statement runs code only when a condition is true?",
+        "options": [
+            "for",
+            "if",
+            "switch",
+            "while"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 22,
+        "question": "Which keyword provides an alternative branch after if?",
+        "options": [
+            "otherwise",
+            "elseif",
+            "else",
+            "default"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 23,
+        "question": "Which statement is useful for comparing one expression against many cases?",
+        "options": [
+            "switch",
+            "while",
+            "try",
+            "return"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 24,
+        "question": "Which loop runs while its condition remains true?",
+        "options": [
+            "for...of",
+            "while",
+            "switch",
+            "if"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 25,
+        "question": "Which loop is commonly used when the number of iterations is known?",
+        "options": [
+            "for",
+            "if",
+            "try",
+            "switch"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 26,
+        "question": "Which keyword exits a loop immediately?",
+        "options": [
+            "stop",
+            "exit",
+            "break",
+            "continue"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 27,
+        "question": "Which keyword skips the current loop iteration?",
+        "options": [
+            "break",
+            "continue",
+            "return",
+            "pass"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 28,
+        "question": "What does a function declaration begin with?",
+        "options": [
+            "method",
+            "function",
+            "def",
+            "func"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 29,
+        "question": "Which keyword sends a value back from a function?",
+        "options": [
+            "yield",
+            "send",
+            "return",
+            "break"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 30,
+        "question": "What is an argument in a function call?",
+        "options": [
+            "A value passed to the function",
+            "The function name",
+            "A return type",
+            "A loop"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 31,
+        "question": "What is a parameter?",
+        "options": [
+            "A value returned by a function",
+            "A named variable in a function definition",
+            "An event",
+            "An object method only"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 32,
+        "question": "Which syntax creates an arrow function?",
+        "options": [
+            "function =>",
+            "() =>",
+            "->",
+            "func():"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 33,
+        "question": "What does a function return if it has no return statement?",
+        "options": [
+            "null",
+            "0",
+            "undefined",
+            "false"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 34,
+        "question": "What is a callback function?",
+        "options": [
+            "A function passed to another function",
+            "A function that never runs",
+            "A built-in loop",
+            "A variable type"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 35,
+        "question": "Which array method adds an item to the end?",
         "options": [
             "pop()",
+            "shift()",
             "push()",
+            "unshift()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 36,
+        "question": "Which array method removes the last item?",
+        "options": [
+            "push()",
+            "pop()",
             "shift()",
             "slice()"
         ],
         "correctAnswer": 1
     },
     {
-        "id": 9,
-        "question": "Which HTML attribute specifies a link destination?",
+        "id": 37,
+        "question": "Which array method adds an item to the beginning?",
         "options": [
-            "src",
-            "alt",
-            "href",
-            "target"
+            "unshift()",
+            "push()",
+            "pop()",
+            "splice()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 38,
+        "question": "Which array method removes the first item?",
+        "options": [
+            "pop()",
+            "slice()",
+            "shift()",
+            "join()"
         ],
         "correctAnswer": 2
     },
     {
-        "id": 10,
-        "question": "Which method converts a JSON string into a JavaScript object?",
+        "id": 39,
+        "question": "Which property gives the number of elements in an array?",
+        "options": [
+            "size",
+            "count",
+            "length",
+            "index"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 40,
+        "question": "Which method creates a new array by transforming each element?",
+        "options": [
+            "filter()",
+            "map()",
+            "find()",
+            "forEach()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 41,
+        "question": "Which method returns a new array containing elements that pass a test?",
+        "options": [
+            "map()",
+            "filter()",
+            "join()",
+            "push()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 42,
+        "question": "Which method returns the first element that passes a test?",
+        "options": [
+            "find()",
+            "filter()",
+            "map()",
+            "every()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 43,
+        "question": "Which method checks whether at least one element passes a test?",
+        "options": [
+            "every()",
+            "some()",
+            "find()",
+            "includes()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 44,
+        "question": "Which method checks whether all elements pass a test?",
+        "options": [
+            "some()",
+            "every()",
+            "find()",
+            "sort()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 45,
+        "question": "Which method combines array elements into a single value?",
+        "options": [
+            "reduce()",
+            "map()",
+            "slice()",
+            "concat()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 46,
+        "question": "Which method joins array elements into a string?",
+        "options": [
+            "split()",
+            "join()",
+            "splice()",
+            "reduce()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 47,
+        "question": "Which method returns a shallow copy of part of an array without changing it?",
+        "options": [
+            "splice()",
+            "slice()",
+            "sort()",
+            "shift()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 48,
+        "question": "Which method can add or remove elements at a chosen array position?",
+        "options": [
+            "splice()",
+            "slice()",
+            "map()",
+            "join()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 49,
+        "question": "How do you access the first element of an array named colors?",
+        "options": [
+            "colors(0)",
+            "colors.first",
+            "colors[0]",
+            "colors{0}"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 50,
+        "question": "What is the index of the first array element?",
+        "options": [
+            "1",
+            "-1",
+            "0",
+            "It depends"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 51,
+        "question": "How do you create an empty array?",
+        "options": [
+            "{}",
+            "[]",
+            "()",
+            "<>"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 52,
+        "question": "How do you create an object literal?",
+        "options": [
+            "[]",
+            "()",
+            "{}",
+            "<>"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 53,
+        "question": "Which syntax accesses the name property of user?",
+        "options": [
+            "user->name",
+            "user.name",
+            "user(name)",
+            "user[name()]"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 54,
+        "question": "Which syntax can access an object property using a variable key?",
+        "options": [
+            "user.key()",
+            "user[key]",
+            "user->key",
+            "user{key}"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 55,
+        "question": "How do you add or update an object property?",
+        "options": [
+            "user.name = 'Ali'",
+            "user.add('name')",
+            "user->name('Ali')",
+            "set user.name"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 56,
+        "question": "What is a method in an object?",
+        "options": [
+            "A property whose value is a function",
+            "An array index",
+            "A loop",
+            "A CSS selector"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 57,
+        "question": "Which keyword refers to the current object in many method calls?",
+        "options": [
+            "self",
+            "this",
+            "current",
+            "that"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 58,
+        "question": "Which method returns an array of an object's keys?",
+        "options": [
+            "Object.values()",
+            "Object.entries()",
+            "Object.keys()",
+            "Object.names()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 59,
+        "question": "Which method returns an array of an object's values?",
+        "options": [
+            "Object.values()",
+            "Object.keys()",
+            "Object.entries()",
+            "Object.items()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 60,
+        "question": "Which method converts a JavaScript object to a JSON string?",
+        "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.convert()",
+            "JSON.toObject()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 61,
+        "question": "Which method converts a JSON string into a JavaScript value?",
         "options": [
             "JSON.stringify()",
             "JSON.parse()",
-            "JSON.convert()",
+            "JSON.read()",
             "JSON.object()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 62,
+        "question": "Which browser storage keeps data after the browser is closed?",
+        "options": [
+            "sessionStorage",
+            "localStorage",
+            "temporaryStorage",
+            "pageStorage"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 63,
+        "question": "Which method stores a value in localStorage?",
+        "options": [
+            "localStorage.save()",
+            "localStorage.setItem()",
+            "localStorage.add()",
+            "localStorage.store()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 64,
+        "question": "Which method reads a value from localStorage?",
+        "options": [
+            "getItem()",
+            "readItem()",
+            "fetchItem()",
+            "load()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 65,
+        "question": "Which method removes one key from localStorage?",
+        "options": [
+            "clearItem()",
+            "delete()",
+            "removeItem()",
+            "pop()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 66,
+        "question": "Which method removes all keys from localStorage?",
+        "options": [
+            "removeItem()",
+            "clear()",
+            "deleteAll()",
+            "reset()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 67,
+        "question": "Which DOM method selects an element by its ID?",
+        "options": [
+            "querySelectorAll()",
+            "getElementById()",
+            "getElementsByClassName()",
+            "createElement()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 68,
+        "question": "Which DOM method selects the first element matching a CSS selector?",
+        "options": [
+            "querySelector()",
+            "getElementById()",
+            "querySelectorAll()",
+            "selectFirst()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 69,
+        "question": "Which DOM method selects all matching elements?",
+        "options": [
+            "querySelector()",
+            "getElementById()",
+            "querySelectorAll()",
+            "getFirstElement()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 70,
+        "question": "Which property changes the text content of an element?",
+        "options": [
+            "innerTextContent",
+            "textContent",
+            "valueText",
+            "htmlText"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 71,
+        "question": "Which property can set or read HTML markup inside an element?",
+        "options": [
+            "textContent",
+            "innerHTML",
+            "outerText",
+            "htmlValue"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 72,
+        "question": "Which method creates a new HTML element?",
+        "options": [
+            "document.new()",
+            "document.createElement()",
+            "document.addElement()",
+            "document.make()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 73,
+        "question": "Which method adds a child node to an element?",
+        "options": [
+            "appendChild()",
+            "removeChild()",
+            "createChild()",
+            "insertText()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 74,
+        "question": "Which method attaches an event handler to an element?",
+        "options": [
+            "onEvent()",
+            "addEventListener()",
+            "attach()",
+            "listen()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 75,
+        "question": "Which event commonly fires when a user clicks an element?",
+        "options": [
+            "change",
+            "submit",
+            "click",
+            "load"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 76,
+        "question": "Which event commonly fires when a form is submitted?",
+        "options": [
+            "submit",
+            "send",
+            "click",
+            "input"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 77,
+        "question": "What does event.preventDefault() do?",
+        "options": [
+            "Stops the browser's default action",
+            "Deletes the event",
+            "Stops all JavaScript",
+            "Reloads the page"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 78,
+        "question": "Which property adds or removes CSS classes from an element?",
+        "options": [
+            "element.styleList",
+            "element.classList",
+            "element.css",
+            "element.classes"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 79,
+        "question": "Which classList method adds a class?",
+        "options": [
+            "insert()",
+            "add()",
+            "push()",
+            "append()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 80,
+        "question": "Which classList method removes a class?",
+        "options": [
+            "delete()",
+            "remove()",
+            "pop()",
+            "clear()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 81,
+        "question": "Which classList method toggles a class on or off?",
+        "options": [
+            "switch()",
+            "toggle()",
+            "change()",
+            "flipClass()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 82,
+        "question": "Which API requests data from a server or resource?",
+        "options": [
+            "fetch()",
+            "requestHTML()",
+            "getJSONOnly()",
+            "loadPage()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 83,
+        "question": "Which method reads a Response body as JSON?",
+        "options": [
+            "response.stringify()",
+            "response.json()",
+            "response.parse()",
+            "response.object()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 84,
+        "question": "What does fetch() return?",
+        "options": [
+            "An array",
+            "A Promise",
+            "A string only",
+            "An HTML element"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 85,
+        "question": "Which keyword pauses an async function until a Promise settles?",
+        "options": [
+            "wait",
+            "pause",
+            "await",
+            "hold"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 86,
+        "question": "Which keyword declares a function that can use await?",
+        "options": [
+            "promise",
+            "async",
+            "defer",
+            "then"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 87,
+        "question": "Which Promise method handles a fulfilled result?",
+        "options": [
+            ".catch()",
+            ".then()",
+            ".finally()",
+            ".error()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 88,
+        "question": "Which Promise method handles a rejection?",
+        "options": [
+            ".then()",
+            ".catch()",
+            ".map()",
+            ".reject()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 89,
+        "question": "Which structure handles synchronous exceptions?",
+        "options": [
+            "if...else",
+            "try...catch",
+            "for...of",
+            "switch"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 90,
+        "question": "Which keyword throws a custom error?",
+        "options": [
+            "error",
+            "catch",
+            "throw",
+            "raise"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 91,
+        "question": "Which method converts a string to an integer?",
+        "options": [
+            "Number.parseInt()",
+            "String.parse()",
+            "toInteger()",
+            "parseNumber()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 92,
+        "question": "Which method converts a string to a floating-point number?",
+        "options": [
+            "parseFloat()",
+            "parseInt()",
+            "toFixed()",
+            "Math.floor()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 93,
+        "question": "Which Math method rounds a number to the nearest integer?",
+        "options": [
+            "Math.floor()",
+            "Math.ceil()",
+            "Math.round()",
+            "Math.random()"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 94,
+        "question": "Which Math method returns a random number greater than or equal to 0 and less than 1?",
+        "options": [
+            "Math.random()",
+            "Math.round()",
+            "Math.min()",
+            "Math.abs()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 95,
+        "question": "Which string property returns the number of characters?",
+        "options": [
+            "size",
+            "count",
+            "length",
+            "chars"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 96,
+        "question": "Which string method converts text to uppercase?",
+        "options": [
+            "toUpperCase()",
+            "upper()",
+            "capitalize()",
+            "toCaps()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 97,
+        "question": "Which string method removes whitespace from both ends?",
+        "options": [
+            "strip()",
+            "trim()",
+            "clean()",
+            "slice()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 98,
+        "question": "Which string method checks whether a string contains another string?",
+        "options": [
+            "includes()",
+            "containsText()",
+            "has()",
+            "matchText()"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 99,
+        "question": "Which string method splits a string into an array?",
+        "options": [
+            "join()",
+            "split()",
+            "slice()",
+            "splice()"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 100,
+        "question": "Which method converts an array into a string with a chosen separator?",
+        "options": [
+            "split()",
+            "join()",
+            "filter()",
+            "reduce()"
         ],
         "correctAnswer": 1
     }
